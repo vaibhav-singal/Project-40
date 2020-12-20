@@ -25,10 +25,10 @@ class Form{
         this.button.style('width', '200px');
         this.button.style('height', '40px');
         this.button.style('background', 'lightpink');
-        this.reset.position(900, 660);
-        this.reset.style('width', '100px');
-        this.reset.style('height', '30px');
-        this.reset.style('background', 'lightpink');
+        // this.reset.position(900, 660);
+        // this.reset.style('width', '100px');
+        // this.reset.style('height', '30px');
+        // this.reset.style('background', 'lightpink');
 
         this.button.mousePressed(() => {
             this.input.hide();
@@ -44,10 +44,10 @@ class Form{
             this.greeting.style('font-size', '100px');
         });
 
-        this.reset.mousePressed(() => {
-            player.updateCount(0);
-            game.update(0);
-        });
+        // this.reset.mousePressed(() => {
+        //     player.updateCount(0);
+        //     game.update(0);
+        // });
 
     }
 }
